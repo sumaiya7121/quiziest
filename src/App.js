@@ -1,8 +1,56 @@
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import Blog from './Components/Blog/Blog';
+import Error from './Components/ErrorElement/Error';
+import Options from './Components/Options/Options';
+import Statistics from './Components/Statistics/Statistics';
+import Topics from './Components/Topics/Topics';
+import Main from './Layout/Main';
 
 function App() {
   const router =createBrowserRouter([
+
+    {
+      path:'/',
+      element:<Main></Main> ,
+      children:[     
+{
+
+path:'/',
+      loader: async()=>{
+return fetch('https://openapi.programming-hero.com/api/quiz');
+      },
+element:<Options></Options>
+
+},
+
+{
+path:'topics',
+element:<Topics></Topics>
+
+},
+{
+  path:'statistics',
+  element:<Statistics></Statistics>
+},
+
+{
+  path:'blogs',
+  element:<Blog></Blog>
+},
+
+{
+path:'*',
+element:<Error></Error>
+
+}
+
+        
+      ]
+
+
+      
+    }
 
 
 
