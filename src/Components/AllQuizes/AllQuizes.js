@@ -9,9 +9,8 @@ const AllQuizes = ({questionOne}) => {
     // console.log(questionOne);
 
 const{correctAnswer, question ,options,id} = questionOne;
-const [correct ,setCorrect] = useState([]);
-const [allCorrect, setAllCorrect] =useState(0);
-const[wrong,setWrong]=useState(0);
+const [setCorrect] = useState([]);
+
 const singleQuiz =questionOne.options;
 
 
@@ -26,7 +25,7 @@ const handleClick = (option) =>{
 
     }
         else{
-        toast.error('Oops your answer is incorrect!',{autoClose:500})
+        toast.error('Oops your answer is incorrect!',{autoClose:500});
     
 
     }

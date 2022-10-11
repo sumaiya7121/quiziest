@@ -17,7 +17,7 @@ const Blog = () => {
 
                         <div className='bg-blue-200 p-8 mt-3 hover:bg-blue-600 hover:text-white'>
                  <h1 className='font-bold text-3xl p-3'> Why we use useRef hook?</h1>
-                 <p className='p-3'>The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.</p>
+                 <p className='p-3'>The useRef Hook allows you to persist values between renders. It can be used to store a mutable value that does not cause a re-render when updated. It can be used to access a DOM element directly.The useRef is a hook that allows to directly create a reference to the DOM element in the functional component. Syntax: const refContainer = useRef(initialValue); The useRef returns a mutable ref object</p>
             </div>
             
         </div>
