@@ -13,9 +13,9 @@ const [correct ,setCorrect] = useState(0);
 const handleClick = (option) =>{
 
     if(option===correctAnswer)
-    {
+    { 
        toast.success('Wow your answer is correct!',{autoClose:500})
-         setCorrect(correct+1);
+       setCorrect(correct+1);
 
     }
         else{
@@ -27,10 +27,9 @@ const handleClick = (option) =>{
 }
 
 
-	
-   
     return (
         <div>
+            
             <div className='card w-9/12 mx-auto bg-base-100 shadow-xl m-10'>
                 
                 <div className='card-body'>
