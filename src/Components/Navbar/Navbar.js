@@ -9,7 +9,7 @@ const Navbar = () => {
 </div>
 
 <div className='flex ml-2'>
-<Link to="/topics" className='ml-3 hover:bg-orange-600 px-2'>Topics</Link>
+<Link to="/" className='ml-3 hover:bg-orange-600 px-2'>Topics</Link>
 <Link to='/statistics' className='ml-3  hover:bg-orange-600 px-2' >Statistics</Link>
 <Link to='/blogs' className='ml-3  hover:bg-orange-600 px-2'>Blog</Link>
 
