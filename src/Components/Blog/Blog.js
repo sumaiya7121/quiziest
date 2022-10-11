@@ -5,7 +5,7 @@ const Blog = () => {
         <div>
             <div className='bg-blue-200 p-8 mt-3 hover:bg-blue-600 hover:text-white'>
                  <h1 className='font-bold text-3xl p-3'> What is the purpose of react router?</h1>
-                 <p className='p-3'>React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.</p>
+                 <p className='p-3'>React Router is a standard library for routing in React. It enables the navigation among views of various components in a React Application, allows changing the browser URL, and keeps the UI in sync with the URL.React router can be an overkill for certain projects where all you need is basic navigation and routing functionalities. In that context, React Router is not necessary at all.</p>
             </div>
 
 
