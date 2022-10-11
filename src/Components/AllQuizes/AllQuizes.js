@@ -20,19 +20,14 @@ const handleClick = (option) =>{
     if(option===correctAnswer)
     { 
 
-      const show= toast.success('Wow your answer is correct!',{autoClose:500});
+     toast.success('Wow your answer is correct!',{autoClose:500});
        
-      if(show){ 
-        
-        setAllCorrect(allCorrect+1);
-      
-      }
     
 
     }
         else{
         toast.error('Oops your answer is incorrect!',{autoClose:500})
-        setWrong(wrong+1);
+    
 
     }
 
