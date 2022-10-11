@@ -31,15 +31,15 @@ const Error = () => {
           ></polygon>
         </svg>
         <div className='max-w-md text-center'>
-          <h2 className='mb-8 font-extrabold text-9xl text-gray-600'>
+          <h2 className='mb-8 font-extrabold text-9xl text-blue-400'>
             <span className='sr-only'>Error</span>404
           </h2>
-          <p className='text-2xl font-semibold md:text-3xl mb-8'>
+          <p className='text-2xl  text-blue-400 font-semibold md:text-3xl mb-8'>
             Sorry, we couldn't find this page.
           </p>
           <Link
             to='/'
-            className='px-8 py-3 font-semibold rounded bg-orange-600 text-white'
+            className='px-8 py-3 font-semibold rounded bg-blue-600 text-white'
           >
             Back to homepage
           </Link>
