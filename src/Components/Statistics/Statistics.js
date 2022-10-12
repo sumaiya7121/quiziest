@@ -1,8 +1,8 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import {
-    CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis,
-    YAxis
+  CartesianGrid, Legend, Line, LineChart, Tooltip, XAxis,
+  YAxis
 } from "recharts";
 
 
@@ -12,13 +12,13 @@ export default function Statistics() {
     
   return (
 <div className='flex justify-center mt-20 flex-col items-center'>
-    <div><h1 className='font-bold text-3xl text-blue-400 hover:text-blue-600 p-5'>Line chart of total number of each quizes</h1></div>
+    <div><h1 className='font-bold text-blue-500 text-3xl p-5 mb-8'>Line chart of total number of each quizes</h1></div>
 
 
-    <div className='mt-5'>   
+    <div className='px-10 mx-10'>   
         
         
-         <LineChart
+         <LineChart 
       width={500}
       height={300}
       data={data.data}
