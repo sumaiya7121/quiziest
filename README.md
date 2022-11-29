@@ -2,7 +2,7 @@
 
 ## Live Website link: https://eloquent-beignet-4e2763.netlify.app
 
-## We have done
+## I have done
 
     1.First Make components of each quizes
     2.wrote blogs of 3 topics
